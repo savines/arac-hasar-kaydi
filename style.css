@@ -260,7 +260,7 @@ body.light-mode .theme-toggle:hover {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url('./assets/hero-bg.png');
+  background-image: url('./images/hero-bg.png');
   background-size: cover;
   background-position: center 5%;
   background-repeat: no-repeat;
