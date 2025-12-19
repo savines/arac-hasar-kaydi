@@ -407,8 +407,12 @@ body.light-mode .theme-toggle:hover {
   }
 
   .services-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     max-width: 100%;
+  }
+
+  .nav-links {
+    display: none;
   }
 }
 
@@ -530,12 +534,6 @@ body.light-mode .theme-toggle:hover {
   color: var(--color-text-muted);
 }
 
-@media (max-width: 768px) {
-  .process-steps {
-    flex-direction: column;
-    gap: 3rem;
-  }
-}
 
 /* Form Section */
 .form-section {
@@ -773,6 +771,11 @@ body.light-mode .theme-toggle:hover {
   }
 
   .footer-content {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .process-steps {
     flex-direction: column;
     gap: 3rem;
   }
